@@ -119,7 +119,7 @@ const cardContainer = document.querySelector("#max-container .row");
 iconsArray.forEach((element, i) => {
     console.log(element)
 
-    const cardCol = createElement("div", "col", "p-3");
+    const cardCol = createElement("div", "col-2", "p-4");
     const card = createElement("div", "card", "text-center");
     const iconClass1 = element.prefix + element.name
     console.log(element.prefix+element.name)
